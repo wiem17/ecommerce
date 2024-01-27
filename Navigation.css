@@ -1,0 +1,66 @@
+/* Navigation.css */
+
+/* Style de la barre de navigation */
+.navbar {
+    background-color: #fff; /* Couleur de fond de la barre de navigation */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  }
+  
+  /* Style pour le texte des liens dans la barre de navigation */
+  .navbar a,
+  .navbar .navbar-brand {
+    color: #333; /* Couleur du texte */
+    font-weight: bold; /* Police en gras */
+  }
+  
+  /* Style pour les liens au survol de la souris */
+  .navbar a:hover {
+    color: #007bff; /* Couleur du texte au survol */
+  }
+  
+  /* Style pour les liens actifs (page courante) */
+  .navbar .active,
+  .navbar .nav-link.active,
+  .navbar .nav-item.show .nav-link {
+    color: #007bff; /* Couleur du texte pour les liens actifs */
+  }
+  
+  /* Style pour le bouton de menu sur les petits écrans */
+  .navbar-toggler-icon {
+    background-color: #333; /* Couleur de fond du bouton de menu */
+  }
+  
+  /* Style pour la barre de menu déroulante */
+  .navbar-nav .nav-link {
+    padding: 8px 15px; /* Espace à l'intérieur des liens */
+  }
+  
+  /* Style pour le dropdown */
+  .navbar-nav .nav-item.dropdown:hover .nav-link {
+    color: #007bff; /* Couleur du texte au survol du dropdown */
+  }
+  
+  /* Style pour le dropdown menu */
+  .navbar-nav .nav-item.dropdown-menu {
+    background-color: #fff; /* Couleur de fond du dropdown menu */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  }
+  
+  /* Style pour les éléments du dropdown menu */
+  .navbar-nav .nav-item.dropdown-menu a {
+    color: #333; /* Couleur du texte du dropdown menu */
+  }
+  
+  /* Style pour les éléments du dropdown menu au survol de la souris */
+  .navbar-nav .nav-item.dropdown-menu a:hover {
+    background-color: #007bff; /* Couleur de fond au survol du dropdown menu */
+    color: #fff; /* Couleur du texte au survol du dropdown menu */
+  }
+  .logout-btn{
+    margin:0 auto;
+    display: block;
+
+  }
+  .logo{
+    width: 50px;
+  }

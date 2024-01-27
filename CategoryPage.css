@@ -1,0 +1,12 @@
+.description-page-container{
+    min-height: 90vh;
+
+}
+.category-banner-container{
+    height: 100px;
+    background-color:#182e38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

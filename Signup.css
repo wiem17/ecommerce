@@ -1,0 +1,158 @@
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 5;
+  background-color: #f8f9fa; /* Couleur de fond */
+}
+
+.signup_container {
+  display: flex;
+  max-width: 500px;
+  margin: 2px;
+  background-color: #fff;
+  border: 6px solid #ddd;
+  border-radius: 80px;
+  overflow: hidden;
+}
+
+.signup_form {
+  flex: 500;
+  padding: 4px;
+}
+
+.signup_image {
+  flex: 500;
+  background-image: url('../images/img.jpg'); /* Remplacez par votre URL d'image */
+  background-size: cover;
+  background-position: center;
+  height:90vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #007bff;
+}
+
+Form.Group {
+  margin-bottom: 800px;
+}
+
+Button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 40px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 1s ease;
+}
+
+Button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+Link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.9s ease;
+}
+
+Link:hover {
+  color: #0056b3;
+}
+
+
+
+
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f8f9fa; /* Couleur de fond */
+}
+
+.login_container {
+  display: flex;
+  max-width: 3000px;
+  margin: 10px;
+  background-color: #fff;
+  border: 7px solid #ddd;
+  border-radius: 80px;
+  overflow: hidden;
+}
+
+.login_form {
+  flex: 10;
+  padding: 100px;
+}
+
+.login_image {
+  flex: 70;
+  background-image: url('../images/img.jpg'); /* Remplacez par votre URL d'image */
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #007bff;
+}
+
+Form.Group {
+  margin-bottom: 800px;
+}
+
+Button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 40px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 1s ease;
+}
+
+Button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+Link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.9s ease;
+}
+
+Link:hover {
+  color: #0056b3;
+}

@@ -1,0 +1,43 @@
+/* NewProduct.css */
+
+.newproduct__form--container {
+    width: 50%;
+    height:60vh;
+  }
+  
+  .upload-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .upload-button {
+    margin-bottom: 10px;
+  }
+  
+  .images-preview {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-preview {
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .image-preview img {
+    max-width: 80%;
+    height: auto;
+    border: 4px solid #ccc; /* Ajoutez une bordure pour séparer l'image de l'icône */
+  }
+  
+ 
+  .delete-icon {
+    position: absolute; /* Position absolue pour sortir de la mise en page normale */
+    top: 1px; /* Ajustez la valeur de "top" pour positionner l'icône verticalement */
+    right: 5px; /* Ajustez la valeur de "right" pour positionner l'icône horizontalement */
+    font-size: 18px;
+    cursor: pointer;
+    color: red;
+  }
+  
